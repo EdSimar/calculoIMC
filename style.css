@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-color: rgb(170, 167, 167);
+    margin-top: 3%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrange{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+}
+
+#butt{
+    margin: 5px 0 10px 0;
+    text-align: center;
+}
+
+button{
+    padding: 3px;
+    border-radius: 5px;
+    border-color: rgb(255, 237, 211);
+    font-weight: bold;
+    box-shadow: 3px 3px 3px rgb(88, 87, 87);
+    margin: 0 5px 8px 5px;
+}
+
+#result{
+    margin-top: 20px;
+    background: rgb(110, 109, 109);
+    padding: 15px;
+}
+
+.pesoNormal{
+    background: rgb(23, 139, 0);
+}
+
+.baixoPeso {
+    background: rgb(204, 207, 36);
+}
+
+.sobrePeso{
+    background: rgb(215, 218, 41);
+}
+.obesidadeI {
+    background: rgb(214, 15, 31);
+}
+
+.obesidadeII {
+    background: rgb(209, 14, 30);
+}
+
+.obesidadeIII {
+    background: rgb(214, 15, 29);
+}
+
+.incorrectWeig {
+    background: rgb(214, 15, 28);
+}
